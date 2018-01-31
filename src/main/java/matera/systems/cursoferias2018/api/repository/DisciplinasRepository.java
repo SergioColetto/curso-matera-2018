@@ -7,7 +7,7 @@ import matera.systems.cursoferias2018.api.domain.entity.DisciplinaEntity;
 
 public interface DisciplinasRepository {
 
-    UUID criar(DisciplinaEntity usuario);
+    UUID criar(DisciplinaEntity disciplina);
 
     void deletar(UUID uuid);
 
